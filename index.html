@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es-MX" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Psicología Positiva | Transforma tu Vida y Encuentra tu Bienestar</title>
+    <meta name="description" content="Descubre el poder de la Psicología Positiva. Terapia y herramientas para construir una vida más plena, feliz y con propósito. Agenda tu primera consulta hoy." />
+
+    <meta property="og:title" content="Psicología Positiva | Transforma tu Vida y Encuentra tu Bienestar" />
+    <meta property="og:description" content="Terapia especializada en Psicología Positiva para ayudarte a florecer, superar desafíos y construir una vida con significado. Comienza tu camino hacia el bienestar." />
+    <meta property="og:image" content="https://images.pexels.com/photos/1528640/pexels-photo-1528640.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&dpr=2" />
+    <meta property="og:url" content="https://example.com" />
+    <meta property="og:type" content="website" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <style>
+      body {
+        font-family: 'Lato', sans-serif;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: 'Playfair Display', serif;
+      }
+      .mobile-nav {
+        transition: transform 0.3s ease-in-out;
+        transform: translateX(100%);
+      }
+      .mobile-nav.open {
+        transform: translateX(0);
+      }
+    </style>
+  </head>
+  <body class="bg-[#FFF8E1] text-[#37474F]">
+
+    <!-- Header -->
+    <header role="banner" id="main-header" class="sticky top-0 z-50 transition-all duration-300 bg-transparent">
+      <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <a href="#home" class="text-2xl font-bold text-[#4DB6AC] hover:text-[#00796B]" data-content="general.psychologist_name">
+          Cargando...
+        </a>
+        <nav role="navigation" aria-label="Navegación principal" class="hidden md:flex">
+          <ul class="flex space-x-8" data-content="navigation.desktop">
+            <!-- Navigation links will be injected here -->
+          </ul>
+        </nav>
+        <button id="mobile-menu-button" class="md:hidden text-[#37474F]" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="mobile-menu">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </button>
+      </div>
+       <!-- Mobile Menu -->
+      <div id="mobile-menu" class="mobile-nav fixed top-0 right-0 h-full w-64 bg-white/90 backdrop-blur-sm shadow-lg md:hidden p-6" role="dialog" aria-modal="true">
+        <div class="flex justify-end mb-8">
+            <button id="mobile-menu-close-button" class="text-[#37474F]" aria-label="Cerrar menú de navegación">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+        <nav>
+            <ul class="flex flex-col space-y-6 text-center" data-content="navigation.mobile">
+                <!-- Mobile navigation links will be injected here -->
+            </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main role="main">
+      <!-- Hero Section -->
+      <section id="home" class="relative h-screen flex items-center justify-center text-center bg-cover bg-center" data-content-style="hero.background_image_url">
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="relative z-10 p-6 text-white max-w-3xl">
+          <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4" data-content="hero.title"></h1>
+          <p class="text-lg md:text-xl mb-8 leading-[1.8]" data-content="hero.subtitle"></p>
+          <a href="#" role="button" aria-label="Agendar tu primera sesión de terapia en Calendly" target="_blank" rel="noopener noreferrer" class="inline-block bg-[#E57373] text-white font-bold tracking-wide leading-normal px-8 py-4 rounded-full shadow-lg transition-transform transform hover:scale-105 hover:bg-[#D32F2F] focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#E57373] focus-visible:ring-offset-[#FFF8E1]" data-content="hero.cta_button">
+          </a>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="quienes-somos" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+          <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="text-center md:text-left">
+              <h2 class="text-3xl md:text-4xl font-bold text-[#37474F] mb-6" data-content="about.title"></h2>
+              <p class="text-lg mb-4 leading-[1.8]" data-content="about.paragraph1"></p>
+              <p class="text-lg leading-[1.8]" data-content="about.paragraph2"></p>
+            </div>
+            <div>
+              <img src="" alt="" class="rounded-lg shadow-2xl mx-auto w-full max-w-md object-cover" loading="lazy" data-content-img="about.image" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="servicios" class="py-20 bg-[#FFF8E1]">
+        <div class="container mx-auto px-6 text-center">
+          <h2 class="text-3xl md:text-4xl font-bold text-[#37474F] mb-4" data-content="services.title"></h2>
+          <p class="text-lg max-w-3xl mx-auto mb-12 leading-[1.8]" data-content="services.description"></p>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16" data-content-list="services.items">
+            <!-- Services will be injected here -->
+          </div>
+          <a href="#" role="button" aria-label="Agendar una consulta de terapia en Calendly" target="_blank" rel="noopener noreferrer" class="inline-block bg-[#E57373] text-white font-bold tracking-wide leading-normal px-8 py-4 rounded-full shadow-lg transition-transform transform hover:scale-105 hover:bg-[#D32F2F] focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#E57373] focus-visible:ring-offset-[#FFF8E1]" data-content="services.cta_button">
+          </a>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section id="testimonios" class="py-20 bg-white">
+        <div class="container mx-auto px-6 text-center">
+          <h2 class="text-3xl md:text-4xl font-bold text-[#37474F] mb-4" data-content="testimonials.title"></h2>
+          <p class="text-lg max-w-3xl mx-auto mb-12 leading-[1.8]" data-content="testimonials.description"></p>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" data-content-list="testimonials.items">
+            <!-- Testimonials will be injected here -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog Preview Section -->
+      <section id="blog" class="py-20 bg-[#FFF8E1]">
+        <div class="container mx-auto px-6 text-center">
+          <h2 class="text-3xl md:text-4xl font-bold text-[#37474F] mb-4" data-content="blog.title"></h2>
+          <p class="text-lg max-w-3xl mx-auto mb-12 leading-[1.8]" data-content="blog.description"></p>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8" data-content-list="blog.posts">
+            <!-- Blog posts will be injected here -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contacto" class="relative py-20 bg-cover bg-center" data-content-style="contact.background_image_url" aria-labelledby="contact-heading">
+        <div class="absolute inset-0 bg-white/70 backdrop-blur-sm" aria-hidden="true"></div>
+        <div class="relative container mx-auto px-6">
+          <div class="text-center mb-12">
+            <h2 id="contact-heading" class="text-3xl md:text-4xl font-bold text-[#37474F] mb-4" data-content="contact.title"></h2>
+            <p class="text-lg max-w-3xl mx-auto leading-[1.8]" data-content="contact.description"></p>
+            <p class="text-lg max-w-3xl mx-auto leading-[1.8] mt-4" data-content-html="contact.direct_link_text"></p>
+          </div>
+          
+          <div class="max-w-2xl mx-auto bg-[#FFF8E1] p-8 rounded-lg shadow-2xl">
+            <form name="contact" method="POST" data-netlify="true" aria-label="Formulario de contacto">
+              <input type="hidden" name="form-name" value="contact" />
+              <div class="mb-6">
+                <label for="name" class="block text-[#37474F] font-bold mb-2">Nombre Completo</label>
+                <input type="text" id="name" name="name" placeholder="Ej. Ana García" required class="w-full px-4 py-3 rounded-md bg-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#4DB6AC]" aria-required="true" />
+              </div>
+              <div class="mb-6">
+                <label for="email" class="block text-[#37474F] font-bold mb-2">Correo Electrónico</label>
+                <input type="email" id="email" name="email" placeholder="Ej. ana.garcia@correo.com" required class="w-full px-4 py-3 rounded-md bg-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#4DB6AC]" aria-required="true" />
+              </div>
+              <div class="mb-6">
+                <label for="message" class="block text-[#37474F] font-bold mb-2">Mensaje</label>
+                <textarea id="message" name="message" rows="5" placeholder="Cuéntame brevemente cómo puedo ayudarte..." required class="w-full px-4 py-3 rounded-md bg-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#4DB6AC]" aria-required="true"></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="bg-[#4DB6AC] text-white font-bold px-8 py-4 rounded-full shadow-lg transition-transform transform hover:scale-105 hover:bg-[#00796B] focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#4DB6AC] focus-visible:ring-offset-[#FFF8E1]">
+                  Enviar Mensaje
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo" class="bg-[#37474F] text-white">
+      <div class="container mx-auto px-6 py-8">
+        <div class="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+          <div class="mb-6 md:mb-0">
+            <p class="font-bold text-lg" data-content="general.psychologist_name"></p>
+            <p class="text-sm text-gray-400">Especialista en Psicología Positiva</p>
+          </div>
+          <div class="flex space-x-6 mb-6 md:mb-0">
+            <a href="#" aria-label="Visita mi perfil de Instagram" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors" data-content-href="footer.instagram_url">
+              <svg viewBox="0 0 24 24" class="h-6 w-6" fill="currentColor"><path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.2,5.2 0 0,1 16.2,21.4H7.8C4.6,21.4 2,18.8 2,15.2V7.8C2,4.6 4.6,2 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" /></svg>
+            </a>
+          </div>
+          <p class="text-sm text-gray-400">
+            &copy; <span id="current-year"></span> <span data-content="footer.copyright_text"></span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    
+    <script>
+      // This script now only handles UI interactions like the mobile menu and header styling.
+      // Content population is handled by index.tsx
+      document.addEventListener('DOMContentLoaded', () => {
+        const header = document.getElementById('main-header');
+        if (header) {
+          window.addEventListener('scroll', () => {
+            if (window.scrollY > 10) {
+              header.classList.add('bg-white/90', 'shadow-md', 'backdrop-blur-sm');
+              header.classList.remove('bg-transparent');
+            } else {
+              header.classList.remove('bg-white/90', 'shadow-md', 'backdrop-blur-sm');
+              header.classList.add('bg-transparent');
+            }
+          });
+        }
+
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenuCloseButton = document.getElementById('mobile-menu-close-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        const openMenu = () => {
+            if (mobileMenu) {
+                mobileMenu.classList.add('open');
+                mobileMenuButton.setAttribute('aria-expanded', 'true');
+            }
+        };
+
+        const closeMenu = () => {
+            if (mobileMenu) {
+                mobileMenu.classList.remove('open');
+                mobileMenuButton.setAttribute('aria-expanded', 'false');
+            }
+        };
+
+        if (mobileMenuButton) mobileMenuButton.addEventListener('click', openMenu);
+        if (mobileMenuCloseButton) mobileMenuCloseButton.addEventListener('click', closeMenu);
+
+        // We will add event listeners to the links dynamically in index.tsx
+
+        const yearSpan = document.getElementById('current-year');
+        if (yearSpan) {
+            yearSpan.textContent = new Date().getFullYear();
+        }
+      });
+    </script>
+    <script type="module" src="/index.tsx"></script>
+
+  </body>
+</html>

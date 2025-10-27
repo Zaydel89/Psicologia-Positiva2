@@ -1,0 +1,130 @@
+
+{
+  "general": {
+    "psychologist_name": "Psic. Alberto Medina"
+  },
+  "navigation": [
+    {
+      "label": "Servicios",
+      "href": "#servicios"
+    },
+    {
+      "label": "Sobre mí",
+      "href": "#quienes-somos"
+    },
+    {
+      "label": "Testimonios",
+      "href": "#testimonios"
+    },
+    {
+      "label": "Blog",
+      "href": "#blog"
+    },
+    {
+      "label": "Contacto",
+      "href": "#contacto"
+    }
+  ],
+  "hero": {
+    "background_image_url": "https://gifdb.com/images/high/sunrise-in-tibet-9ptkpv1ytpnaf4sj.webp",
+    "title": "Descubre tu Fortaleza Interior. Vive una Vida Plena.",
+    "subtitle": "La Psicología Positiva no solo trata lo que está mal; celebra y cultiva lo que está bien en ti. Juntos, podemos construir un camino hacia tu bienestar, desbloqueando tu potencial para una felicidad auténtica y duradera. Da el primer paso hacia una versión más resiliente y optimista de ti mismo.",
+    "cta_button": {
+      "text": "Agenda tu Primera Sesión",
+      "url": "https://calendly.com/zaydel-mitzay/30min"
+    }
+  },
+  "about": {
+    "title": "Un Enfoque Humano para tu Bienestar",
+    "paragraph1": "Soy el Psic. Alberto Medina, y mi pasión es guiarte en el descubrimiento de tus propias fortalezas. Con un enfoque en la Psicología Positiva, mi terapia va más allá de la simple conversación; es un espacio seguro y colaborativo donde creamos estrategias personalizadas para que alcances tus metas, cultives relaciones sanas y construyas una vida con propósito y alegría.",
+    "paragraph2": "Creo firmemente que cada persona tiene la capacidad innata de florecer. Mi compromiso es brindarte las herramientas y el apoyo para lograrlo.",
+    "image": {
+      "url": "https://images.pexels.com/photos/33345072/pexels-photo-33345072.jpeg",
+      "alt": "Retrato profesional del Psicólogo Alberto Medina, en traje semi-formal y sonriendo con confianza."
+    }
+  },
+  "services": {
+    "title": "Transforma tu Vida, Paso a Paso",
+    "description": "Mis servicios están diseñados para darte herramientas prácticas y un apoyo significativo en tu viaje hacia el bienestar. Ya sea de forma individual o en pareja, encontraremos el camino que mejor se adapte a tus necesidades únicas, enfocándonos siempre en tus fortalezas y tu potencial de crecimiento.",
+    "cta_button": {
+      "text": "Agenda una Consulta",
+      "url": "https://calendly.com/zaydel-mitzay/30min"
+    },
+    "items": [
+      {
+        "title": "Terapia Individual",
+        "description": "Un espacio confidencial para explorar tus fortalezas, manejar el estrés y construir resiliencia. Juntos crearemos un plan personalizado para que alcances tus metas y bienestar emocional.",
+        "icon_svg_path": "M13 10V3L4 14h7v7l9-11h-7z"
+      },
+      {
+        "title": "Psicología Empresarial",
+        "description": "Desbloquea el máximo potencial de tu equipo y empresa. Ayudamos a empleados, mandos intermedios y CEOs a mejorar la comunicación, el liderazgo y el bienestar en el entorno laboral.",
+        "icon_svg_path": "M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"
+      },
+      {
+        "title": "Coaching de Vida",
+        "description": "Define tus pasiones y establece un plan de acción claro. A través del coaching, te ayudaré a superar obstáculos, mantener la motivación y diseñar una vida alineada con tus valores y propósito.",
+        "icon_svg_path": "M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Historias de Crecimiento y Bienestar",
+    "description": "La mayor satisfacción es ser testigo de la transformación de mis pacientes. Sus historias de resiliencia y crecimiento son la prueba de que el cambio es posible. Ellos han dado el paso para construir una vida más plena y feliz, y sus experiencias son mi mayor motivación para seguir adelante.",
+    "items": [
+      {
+        "quote": "La terapia me ayudó a ver mis problemas desde otra perspectiva. Aprendí a valorar mis logros y a ser más amable conmigo misma. Alberto es un guía increíble, lleno de empatía y profesionalismo. ¡Totalmente recomendado!",
+        "author": "- Ana G."
+      },
+      {
+        "quote": "Pensé que el coaching era solo para metas profesionales, pero me cambió la vida personal. Pude poner orden en mis prioridades y sentirme con más energía y propósito. Cada sesión fue un impulso de motivación y claridad.",
+        "author": "- Carlos M."
+      },
+      {
+        "quote": "El coaching de Alberto fue un catalizador para nuestro equipo directivo. Nos ayudó a alinear objetivos y fomentar un liderazgo más consciente. El impacto en la cultura y productividad ha sido notable.",
+        "author": "- Ricardo S., CEO"
+      }
+    ]
+  },
+  "blog": {
+    "title": "Mi Blog: Herramientas para tu Bienestar",
+    "description": "En este espacio comparto reflexiones, consejos y ejercicios prácticos basados en la Psicología Positiva. Mi objetivo es ofrecerte recursos valiosos que puedas aplicar en tu vida diaria para cultivar la alegría, la resiliencia y el autoconocimiento. Es una extensión de mi consultorio, abierta para ti.",
+    "posts": [
+      {
+        "image_url": "https://images.pexels.com/photos/1931143/pexels-photo-1931143.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "image_alt": "Una persona rompiendo una cadena, simbolizando la liberación de creencias limitantes.",
+        "title": "3 Creencias que Limitan tu Crecimiento (y no son sobre dinero)",
+        "excerpt": "Descubre las barreras mentales que te impiden alcanzar tu potencial y aprende a superarlas para forjar un futuro próspero.",
+        "link_url": "https://youtu.be/mqI_VSB5qGk",
+        "link_text": "Ver video &rarr;"
+      },
+      {
+        "image_url": "https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "image_alt": "Dos personas conversando cómodamente en una cafetería.",
+        "title": "5 Herramientas Psicológicas para Vencer la Ansiedad Social",
+        "excerpt": "La ansiedad social no tiene por qué controlarte. Te comparto cinco técnicas efectivas para que ganes confianza y disfrutes más de tus interacciones sociales.",
+        "link_url": "https://youtu.be/kDFOTZ6Xr8Q",
+        "link_text": "Ver video &rarr;"
+      },
+      {
+        "image_url": "https://images.pexels.com/photos/3755824/pexels-photo-3755824.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "image_alt": "Silueta de una persona en la cima de una montaña al amanecer.",
+        "title": "Las 3 Cualidades de una Mentalidad Imparable",
+        "excerpt": "Analizamos las tres cualidades clave que definen a las personas que superan cualquier obstáculo y cómo puedes cultivarlas para construir una resiliencia inquebrantable.",
+        "link_url": "https://youtu.be/zy18I8MsWWU",
+        "link_text": "Ver video &rarr;"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Da el Primer Paso Hacia tu Bienestar",
+    "description": "Estoy aquí para escucharte. Si tienes alguna pregunta o deseas agendar tu primera consulta, puedes rellenar el siguiente formulario y te responderé a la brevedad.",
+    "direct_link_text": "O si lo prefieres, puedes <a href=\"{calendly_url}\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"font-bold text-[#4DB6AC] hover:underline focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#4DB6AC]\">agendar una cita directamente aquí</a>.",
+    "calendly_url": "https://calendly.com/zaydel-mitzay/30min",
+    "background_image_url": "https://images.pexels.com/photos/305821/pexels-photo-305821.jpeg"
+  },
+  "footer": {
+    "instagram_url": "https://www.instagram.com/alberto.medinah/",
+    "copyright_text": "Psic. Alberto Medina. Todos los derechos reservados."
+  }
+}

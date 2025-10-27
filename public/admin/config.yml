@@ -1,0 +1,84 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "content"
+    label: "Contenido del Sitio"
+    files:
+      - file: "public/content.json"
+        label: "Página Principal"
+        name: "home"
+        fields:
+          - { label: "Información General", name: "general", widget: "object", fields: [
+              { label: "Nombre del Psicólogo", name: "psychologist_name", widget: "string" }
+            ]}
+          - { label: "Navegación", name: "navigation", widget: "list", fields: [
+              { label: "Texto", name: "label", widget: "string" },
+              { label: "Enlace (ej. #servicios)", name: "href", widget: "string" }
+            ]}
+          - { label: "Sección Principal (Hero)", name: "hero", widget: "object", fields: [
+              { label: "URL de Imagen de Fondo", name: "background_image_url", widget: "string" },
+              { label: "Título", name: "title", widget: "string" },
+              { label: "Subtítulo", name: "subtitle", widget: "text" },
+              { label: "Botón de Acción", name: "cta_button", widget: "object", fields: [
+                  { label: "Texto del Botón", name: "text", widget: "string" },
+                  { label: "URL del Botón (Calendly)", name: "url", widget: "string" }
+                ]}
+            ]}
+          - { label: "Sección 'Sobre Mí'", name: "about", widget: "object", fields: [
+              { label: "Título", name: "title", widget: "string" },
+              { label: "Párrafo 1", name: "paragraph1", widget: "text" },
+              { label: "Párrafo 2", name: "paragraph2", widget: "text" },
+              { label: "Imagen", name: "image", widget: "object", fields: [
+                  { label: "Archivo de Imagen", name: "url", widget: "image" },
+                  { label: "Texto Alternativo", name: "alt", widget: "string" }
+                ]}
+            ]}
+          - { label: "Sección de Servicios", name: "services", widget: "object", fields: [
+              { label: "Título", name: "title", widget: "string" },
+              { label: "Descripción", name: "description", widget: "text" },
+              { label: "Botón de Acción", name: "cta_button", widget: "object", fields: [
+                  { label: "Texto del Botón", name: "text", widget: "string" },
+                  { label: "URL del Botón (Calendly)", name: "url", widget: "string" }
+                ]},
+              { label: "Lista de Servicios", name: "items", widget: "list", fields: [
+                  { label: "Título del Servicio", name: "title", widget: "string" },
+                  { label: "Descripción del Servicio", name: "description", widget: "text" },
+                  { label: "Código SVG del Ícono (solo el contenido del atributo 'd')", name: "icon_svg_path", widget: "text" }
+                ]}
+            ]}
+          - { label: "Sección de Testimonios", name: "testimonials", widget: "object", fields: [
+              { label: "Título", name: "title", widget: "string" },
+              { label: "Descripción", name: "description", widget: "text" },
+              { label: "Lista de Testimonios", name: "items", widget: "list", fields: [
+                  { label: "Cita", name: "quote", widget: "text" },
+                  { label: "Autor", name: "author", widget: "string" }
+                ]}
+            ]}
+          - { label: "Sección del Blog", name: "blog", widget: "object", fields: [
+              { label: "Título", name: "title", widget: "string" },
+              { label: "Descripción", name: "description", widget: "text" },
+              { label: "Entradas del Blog", name: "posts", widget: "list", fields: [
+                  { label: "Imagen", name: "image_url", widget: "image" },
+                  { label: "Texto Alternativo de Imagen", name: "image_alt", widget: "string" },
+                  { label: "Título de la Entrada", name: "title", widget: "string" },
+                  { label: "Extracto", name: "excerpt", widget: "text" },
+                  { label: "URL del Enlace (YouTube)", name: "link_url", widget: "string" },
+                  { label: "Texto del Enlace", name: "link_text", widget: "string" }
+                ]}
+            ]}
+          - { label: "Sección de Contacto", name: "contact", widget: "object", fields: [
+              { label: "URL de Imagen de Fondo", name: "background_image_url", widget: "string" },
+              { label: "Título", name: "title", widget: "string" },
+              { label: "Descripción", name: "description", widget: "text" },
+              { label: "URL de Calendly", name: "calendly_url", widget: "string" },
+              { label: "Texto del enlace directo", name: "direct_link_text", widget: "text", hint: "Usa {calendly_url} para insertar el enlace de Calendly en el texto." }
+            ]}
+          - { label: "Pie de Página", name: "footer", widget: "object", fields: [
+              { label: "URL de Instagram", name: "instagram_url", widget: "string" },
+              { label: "Texto de Copyright", name: "copyright_text", widget: "string" }
+            ]}
